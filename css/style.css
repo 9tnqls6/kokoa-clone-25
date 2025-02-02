@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap");
+@import "/css/reset.css";
+@import "/css/variables.css";
+/* Components */
+@import "/css/components/status-bar.css";
+@import "/css/components/nav-bar.css";
+@import "/css/components/screen-header.css";
+@import "/css/components/user-component.css";
+@import "/css/components/badge.css";
+/* Screens */
+@import "/css/screens/login.css";
+@import "/css/screens/friends.css";
+
+body {
+  font-family: "Funnel Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  min-height: calc(100vh - 100px);
+  color: #2e363e;
+  padding-top: 26px;
+  padding-bottom: 74px;
+  box-sizing: border-box;
+}
+
+.main-screen {
+  padding: 0 var(--horizontal-space);
+}
