@@ -1,6 +1,7 @@
 .user-component {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .user-component,
@@ -47,6 +48,11 @@
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.4);
   font-size: 15px;
+}
+
+.user-component__subtitle i {
+  color: tomato;
+  margin-left: 4px;
 }
 
 .user-component__time {
